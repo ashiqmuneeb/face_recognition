@@ -1,0 +1,13 @@
+# Core environment
+numpy
+scikit-learn
+opencv-python
+pillow
+torch
+torchvision
+
+# Face recognition & detection
+facenet-pytorch
+ultralytics     
+
+# Util
