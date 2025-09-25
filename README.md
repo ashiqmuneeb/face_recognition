@@ -16,17 +16,6 @@ Unseen faces are automatically labelled **“Unknown”** using a distance thres
 
 ---
 
-## 📂 Project Structure
-face_recognition/
-│
-├─ capture.py # Capture face images for each person
-├─ encode.py # Generate FaceNet embeddings
-├─ train.py # Train KNN classifier and save model
-├─ recognize.py # Real-time recognition
-├─ common_logging.py # Shared logger config
-├─ requirements.txt
-└─ README.md
-
 > **Note**: `models/`, `dataset/`, `outputs/`, and `logs/` folders are excluded  
 > (see `.gitignore`) because they contain large or generated files.
 
